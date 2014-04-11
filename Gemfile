@@ -10,6 +10,11 @@ gem 'capybara'
 gem 'faker'
 gem 'bcrypt'
 
+group :development, :test do
+  gem 'byebug'
+  gem 'shoulda-matchers', github: 'thoughtbot/shoulda-matchers'
+end
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
