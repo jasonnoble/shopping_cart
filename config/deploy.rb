@@ -4,6 +4,7 @@ lock '3.1.0'
 set :application, 'shoppingcart.com'
 set :repo_url, 'git@github.com:jasonnoble/shopping_cart.git'
 set :branch, 'heroku_start'
+set :rvm_ruby_version, '2.1.1@shopping_cart'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }

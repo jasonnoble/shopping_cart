@@ -18,6 +18,7 @@ end
 gem "capistrano", group: :development
 gem "capistrano-rails", group: :development
 gem 'capistrano-rvm'
+gem 'capistrano-bundler'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do

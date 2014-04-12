@@ -227,6 +227,7 @@ DEPENDENCIES
   bcrypt
   byebug
   capistrano
+  capistrano-bundler
   capistrano-rails
   capistrano-rvm
   capybara
