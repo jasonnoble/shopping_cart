@@ -15,6 +15,10 @@ group :development, :test do
   gem 'shoulda-matchers', github: 'thoughtbot/shoulda-matchers'
 end
 
+gem "capistrano", group: :development
+gem "capistrano-rails", group: :development
+gem 'capistrano-rvm'
+
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3'
